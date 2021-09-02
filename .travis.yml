@@ -6,9 +6,7 @@ python:
   - "nightly"  # nightly build
 branches:
   only:
-  - master
-  - dev
-  - test
+  - main
 # command to install dependencies
 install:
   - pip install -r requirements.txt
